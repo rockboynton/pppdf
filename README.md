@@ -28,14 +28,18 @@ file.
 
 4. The Makefile.
 
-If a particular source code has files appearing in this order:
-
-* main.cpp, class1.h, class1.cpp, class2.h, class2.cpp, Makefile.
-
 If you don't have guidelines to follow, it is generally best to order them in
 decreasing order of importance/integration.
 
-## Example 
+## Example
+
+If a particular source code has files appearing in this order,
+
+* main.cpp, class1.h, class1.cpp, class2.h, class2.cpp, Makefile.
+
+then you can run the script as follows:
+
+`$ pppdf source main.cpp, class1.h, class1.cpp, class2.h, class2.cpp`
 
 ## Implementation Details
 
